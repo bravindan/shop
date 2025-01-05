@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Menu from './Menu'
 import SearchBar from './SearchBar'
-import CartIcon from './CartIcon'
+import NavIcons from './NavIcons'
 
 export default function Navbar() {
   return (
@@ -46,7 +46,7 @@ export default function Navbar() {
         {/* right section  */}
         <div className="2/3 xl:w-1/2 flex items-center justify-end gap-8">
           <SearchBar />
-          <CartIcon />
+          <NavIcons />
         </div>
       </div>
     </div>
